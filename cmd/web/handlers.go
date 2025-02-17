@@ -15,7 +15,7 @@ func home(w http.ResponseWriter, r *http.Request){
 		return
 	}
 
-	// 
+	// template files
 	files := []string{
 		"./ui/html/pages/home.html",
 		"./ui/html/base.html",
